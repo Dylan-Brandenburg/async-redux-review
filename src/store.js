@@ -10,7 +10,7 @@ import peopleReducer from './ducks/peopleReducer';
 
 //combining your reducers
 //the keys "films" and "people" are how you will be accessing the state from the different reducers
-//ex. People.js :: line 52
+//ex. People.js :: line 59
 const multipleReducers = combineReducers({
   films: filmsReducer,
   people: peopleReducer
